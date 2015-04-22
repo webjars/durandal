@@ -65,7 +65,7 @@
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
             {
-                "paths: {
+                "paths": {
                     "durandal": "js",
                     "plugins": "js/plugins",
                     "transitions": "js/transitions"
